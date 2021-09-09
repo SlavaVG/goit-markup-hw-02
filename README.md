@@ -3,4 +3,4 @@
  домашнее задание №1
  home work #1
 
-https://slavavg.github.io/goit-markup-hw-011/
+https://slavavg.github.io/goit-markup-hw-02/
