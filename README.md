@@ -1,6 +1,6 @@
-# goit-markup-hw-01
- домашне завдання №1
- домашнее задание №1
- home work #1
+# goit-markup-hw-02
+ домашне завдання №2
+ домашнее задание №2
+ home work #2
 
 https://slavavg.github.io/goit-markup-hw-02/
