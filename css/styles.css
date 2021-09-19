@@ -17,7 +17,7 @@ body {
   font-family: inherit  
 }
 .list{
- list-style: none;
+list-style: none;
 }
 .btn {
     font-family: inherit;
@@ -50,6 +50,14 @@ body {
   line-height: 1.71;  /* or 171% */
   letter-spacing: 0.03em;
 }
+.btn-filtr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62; /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 /*========prodact=====*/
 /*========header=====*/
 .logo-header-studio{
@@ -66,6 +74,11 @@ color: var(--secondary-title-color)
 .header-link:focus{
 color: var(--accent-color)
 }
+
+.header-link .link.current{
+color: var(--primary-text-color);
+}
+
 .header-kontacts{
 font-weight: 500;
 font-size: 14px;
@@ -105,16 +118,12 @@ color: var(--accent-color)
   color: var(--primary-title-color);
 }
 .hero-btn {
-    color: #ffffff;
+    color: var(--third-text-color);
     background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 .hero-btn:hover {
-    color: #ffffff;
+    color: var(--third-text-color);
     background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 /*========= ПОЧЕМУ МЫ ===========*/
 .whyus-item-header{
@@ -182,3 +191,13 @@ color: var(--accent-color);
 .logo-footer-studio{
   color:var(--primary-title-color)
 }
+/*======== ФИЛЬТР ==========*/
+.filtr-btn {
+    color: var(--third-text-color);
+    background-color: var(--accent-color);
+}
+.filtr-btn:hover {
+    color: var(--secondary-text-color);
+    background: var(--third-text-color);
+}
+/*======== ПОРТОФОЛИО ==========*/
