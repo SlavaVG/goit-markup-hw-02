@@ -75,8 +75,9 @@ color: var(--secondary-title-color)
 color: var(--accent-color)
 }
 
-.header-link .link.current{
-color: var(--primary-text-color);
+.header-link.link.current{
+/* color: var(--primary-text-color); */
+text-decoration: underline;
 }
 
 .header-kontacts{
