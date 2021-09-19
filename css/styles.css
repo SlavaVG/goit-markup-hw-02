@@ -102,7 +102,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-/* color: var(--primary-text-color) */
+color: var(--primary-text-color)
 }
 .header-kontacts-link:hover,
 .header-kontacts-link:focus{
@@ -207,3 +207,18 @@ color: var(--accent-color);
     background: var(--third-text-color);
 }
 /*======== ПОРТОФОЛИО ==========*/
+.portofolio-item-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: var(--secondary-title-color);
+
+}
+.portofolio-item-texttwo,
+.portofolio-item-text{
+font-size: 16px;
+line-height: 1.87; /* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
