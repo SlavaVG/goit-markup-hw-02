@@ -28,6 +28,13 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+.logo{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
 .footer-link{
   font-size: 14px;
   line-height: 1.71;  /* or 171% */
@@ -35,6 +42,9 @@ body {
 }
 /*========prodact=====*/
 /*========header=====*/
+.logo-header-studio{
+color:var(--secondary-text-color)
+}
 .header-link{
 font-weight: 500;
 font-size: 14px;
@@ -158,4 +168,7 @@ color: var(--accent-color);
 .contact:hover,
 .contact:focus{
   color: var(--accent-color);
+}
+.logo-footer-studio{
+  color:var(--primary-title-color)
 }
