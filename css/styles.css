@@ -47,6 +47,7 @@ list-style: none;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  text-decoration: underline;
 }
 .footer-link{
   font-size: 14px;
