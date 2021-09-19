@@ -28,6 +28,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+.footer-link{
+  font-size: 14px;
+  line-height: 1.71;  /* or 171% */
+  letter-spacing: 0.03em;
+}
 /*========prodact=====*/
 /*========header=====*/
 .header-link{
@@ -67,7 +72,7 @@ color: var(--accent-color)
 /*========hero=====*/
 
 .hero{
-  background-color: black;
+  background: #2F303A;
 
 }
 .hero-title{
@@ -117,5 +122,40 @@ letter-spacing: 0.03em;
 color: var(--secondary-title-color);
 }
 /*======== НАША КОМАНДА ==========*/
+.ourteam-item-title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+.ourteam-item-text{
+font-size: 16px;
+line-height: calc(19 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+/*======== ФУТЕР ==========*/
+.footer{
+  background: #2F303A;
+}
+.footer-contact{
+  font-style: inherit;
+}
+.address{
+color: var(--third-text-color);
+}
 
-
+.address:hover,
+.address:focus{
+color: var(--accent-color);
+}
+.contact{
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact:hover,
+.contact:focus{
+  color: var(--accent-color);
+}
