@@ -34,7 +34,16 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus{
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 .footer-link{
   font-size: 14px;
