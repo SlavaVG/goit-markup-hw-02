@@ -4,7 +4,7 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --third-text-color: #ffffff;
-  --accent-color: #2169f3;
+  --accent-color: #2196f3;
 }
 body {
   /* font-family: 'Raleway', sans-serif; */
@@ -47,7 +47,7 @@ list-style: none;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .footer-link{
   font-size: 14px;
@@ -77,14 +77,15 @@ letter-spacing: 0.02em;
 color: var(--secondary-title-color)
 }
 .header-link:hover,
-.header-link:focus{
+.header-link:focus,
+.current{
 color: var(--accent-color)
 }
 
-.header-link.link.current{
+/* .header-link.link.current{
 /* color: var(--primary-text-color); */
 text-decoration: underline;
-}
+} */
 
 .header-kontacts{
 font-weight: 500;
@@ -199,11 +200,13 @@ color: var(--accent-color);
   color:var(--primary-title-color)
 }
 /*======== ФИЛЬТР ==========*/
-.filtr-btn {
+.filtr-btn:hover,
+.filtr-btn:focus,
+.current-btn{
     color: var(--third-text-color);
     background-color: var(--accent-color);
 }
-.filtr-btn:hover {
+.filtr-btn {
     color: var(--secondary-text-color);
     background: var(--third-text-color);
 }
@@ -214,9 +217,8 @@ font-size: 18px;
 line-height: 2.00;/* identical to box height, or 200% */
 letter-spacing: 0.06em;
 color: var(--secondary-title-color);
-
 }
-.portofolio-item-texttwo,
+
 .portofolio-item-text{
 font-size: 16px;
 line-height: 1.87; /* identical to box height, or 187% */
