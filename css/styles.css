@@ -10,7 +10,8 @@ body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  letter-spacing: 0.06em;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /*========servises=====*/
@@ -26,7 +27,6 @@ list-style: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -36,7 +36,6 @@ list-style: none;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo:hover,
@@ -45,14 +44,11 @@ list-style: none;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   /* text-decoration: underline; */
 }
 .footer-link{
-  font-size: 14px;
   line-height: 1.71;  /* or 171% */
-  letter-spacing: 0.03em;
 }
 .btn-filtr {
   font-family: inherit;
@@ -60,7 +56,6 @@ list-style: none;
   font-size: 16px;
   line-height: 1.62; /* identical to box height, or 162% */
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
 }
@@ -71,7 +66,6 @@ color:var(--secondary-text-color)
 }
 .header-link{
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-title-color)
@@ -89,7 +83,6 @@ text-decoration: underline;
 
 .header-kontacts{
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 /* color: var(--primary-text-color); */
@@ -101,7 +94,6 @@ color: var(--accent-color);
 
 .header-kontacts-link{
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color)
@@ -136,16 +128,13 @@ color: var(--accent-color)
 /*========= ПОЧЕМУ МЫ ===========*/
 .whyus-item-header{
   font-weight: 700;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
 .whyus-item-text{
-  font-size: 14px;
   line-height: 1.71;   /* or 171% */
-  letter-spacing: 0.03em;
   /* color: var(--primary-text-color); */
 }
 /*======== Чем мы занимаемся ==========*/
@@ -155,7 +144,6 @@ font-weight: 700;
 font-size: 36px;
 line-height: calc(42 / 36);
 /* text-align: center; */
-letter-spacing: 0.03em;
 color: var(--secondary-title-color);
 }
 /*======== НАША КОМАНДА ==========*/
@@ -164,14 +152,12 @@ color: var(--secondary-title-color);
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
 .ourteam-item-text{
 font-size: 16px;
 line-height: calc(19 / 16);
 text-align: center;
-letter-spacing: 0.03em;
 /* color: var(--primary-text-color); */
 }
 /*======== ФУТЕР ==========*/
@@ -222,6 +208,5 @@ color: var(--secondary-title-color);
 .portofolio-item-text{
 font-size: 16px;
 line-height: 1.87; /* identical to box height, or 187% */
-letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
